@@ -34,7 +34,7 @@ const ObjectDetection = () => {
       data.append('file_list', fileToUpload);
       let res = await fetch(
         // object-to-img
-        'https://dfc9-120-188-85-18.ap.ngrok.io/detect/',
+        'https://e44a-114-4-219-181.ap.ngrok.io/detect/',
         {
           method: 'post',
           body: data,
